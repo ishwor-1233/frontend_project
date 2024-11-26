@@ -70,4 +70,8 @@
 .intend {
   height: 600px;
   width: 100vw;
+  margin-bottom: 40px;
+}
+.vfx {
+  gap: 20px;
 }
