@@ -3,9 +3,10 @@
   margin: 0;
   padding: 0;
 }
+
 .flex {
   display: flex;
-  justify-content: left;
+  justify-content: end;
   overflow: hidden;
   background-color: aqua;
   margin: 20px;
@@ -17,13 +18,15 @@
   display: flex;
 }
 .banner {
-  height: 200px;
+  height: 300px;
   width: 100vw;
   margin-bottom: 20px;
+  object-fit: fill;
 }
 .banner2 {
-  height: 500px;
+  height: 600px;
   width: 100vw;
+  object-fit: cover;
 }
 
 .join {
@@ -32,12 +35,39 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
+  font-weight: 500;
 }
 
 .button {
   color: white;
   background-color: black;
-  height: 40px;
-  width: 60px;
-  border-radius: 40%;
+  height: 30px;
+  width: 150px;
+  border-radius: 30%;
+}
+
+.image {
+  display: flex;
+}
+
+.image1 {
+  height: 600px;
+  width: 100vw;
+}
+.image2 {
+  height: 600px;
+  width: 100vw;
+}
+.image3 {
+  height: 600px;
+  width: 100vw;
+}
+.image4 {
+  height: 600px;
+  width: 100vw;
+}
+
+.intend {
+  height: 600px;
+  width: 100vw;
 }
